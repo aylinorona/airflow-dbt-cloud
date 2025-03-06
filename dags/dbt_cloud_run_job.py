@@ -31,8 +31,8 @@ from airflow.providers.dbt.cloud.operators.dbt import DbtCloudRunJobOperator
 
 ### Update these ids to match your account ###
 DBT_CLOUD_CONN_ID = "dbt_cloud"
-ACCOUNT_ID = "222529"
-JOB_ID = "710606"
+ACCOUNT_ID = "16173"
+JOB_ID = "65767"
 
 with DAG(
     dag_id="dbt_cloud_run_job",
